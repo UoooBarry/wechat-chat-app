@@ -29,13 +29,14 @@ Page({
           wx.redirectTo({
             url: '/pages/rooms/rooms',
           })
+        }else{
+          that.setData({
+            warn: '用户名或密码错误'
+          });
         }
       },
       fail(){
-        const that = this;
-        that.setData({
-          warn: '用户名或密码错误'
-        });
+
       }
     })
     return;

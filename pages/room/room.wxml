@@ -1,0 +1,20 @@
+<!--pages/room/room.wxml-->
+<view class='main'>
+  <view class='main-content'>
+    <view class='messages' id='messages'>
+      <view wx:for="{{messages}}" wx:key="index">
+        <text>{{item.user}}: {{item.msg}}</text>
+      </view>
+    </view>
+
+    <view class="message-form">
+      <form bindsubmit="sendMessage">
+        <input type="text" name='message' class='message-box' value="{{message}}" />
+        <button form-type="submit" class='btn-green'>发送</button>
+      </form>
+    </view>
+
+    <warn warn="123" />
+  </view>
+
+</view>

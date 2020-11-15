@@ -1,0 +1,4 @@
+<!--components/warn.wxml-->
+<view>
+  <text class='warn' wx:if="warn">{{warn}}</text>
+</view>

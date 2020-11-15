@@ -1,0 +1,4 @@
+/* pages/rooms/rooms.wxss */
+.room-data{
+  margin-right: 5px;
+}

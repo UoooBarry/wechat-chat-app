@@ -1,0 +1,15 @@
+/**index.wxss**/
+input{
+  border: 1px solid black;
+}
+
+input, select {
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

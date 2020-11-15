@@ -1,0 +1,32 @@
+/* pages/room/room.wxss */
+.main .main-content{
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.message-form {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.message-form input{
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.message-box{
+  width: 100%;
+  border: 0.5px solid black;
+}
+
+.messages{
+  overflow-y: scroll;
+}

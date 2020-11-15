@@ -1,0 +1,4 @@
+/* components/warn.wxss */
+.warn{
+  color: red;
+}

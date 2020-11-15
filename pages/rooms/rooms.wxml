@@ -1,0 +1,6 @@
+<!--pages/rooms/rooms.wxml-->
+<view wx:for="{{rooms}}" wx:key="index" class='container'>
+  <text class='room-data'>主题: {{item.roomName}}</text>
+  <text class='room-data'>人数: {{item.currentUser.length}}</text>
+  <button id='{{item._id}}' catchtap='joinRoom' class='btn-green'>加入</button>
+</view>

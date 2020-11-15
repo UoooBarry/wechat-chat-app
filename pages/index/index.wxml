@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+    <form bindsubmit="login">
+      <label for="username">用户名</label>
+      <input type="text" name="username" id='username'/>
+      <label for="password">密码</label>
+      <input type="password" name="password" id='password'/>
+      <br/>
+      <button formType="submit" class='btn-green'>登陆</button>
+    </form>
+   <warn warn="{{warn}}"/>
+</view>
